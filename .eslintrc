@@ -1,0 +1,11 @@
+{
+  "extends": ["standard"],
+  "parser": "babel-eslint",
+  "rules": {
+    "jsx-quotes": ["error", "prefer-double"],
+    "comma-dangle": ["error", "always-multiline"]
+  },
+  "env": {
+    "mocha": true,
+  }
+}
